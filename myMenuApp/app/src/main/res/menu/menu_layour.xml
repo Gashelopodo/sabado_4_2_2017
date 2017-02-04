@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gashe.mymenuapp.MainActivity">
+
+    <item
+        android:id="@+id/opcion1"
+        android:orderInCategory="1"
+        android:title="opcion1"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always|withText"
+        ></item>
+
+    <item
+        android:id="@+id/opcion2"
+        android:orderInCategory="2"
+        android:title="opcion2"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="withText"
+        ></item>
+
+    <item
+        android:id="@+id/opcion3"
+        android:orderInCategory="3"
+        android:title="opcion3"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="withText"
+        ></item>
+
+
+</menu>
